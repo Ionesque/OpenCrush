@@ -22,7 +22,7 @@ public class Universal : MonoBehaviour
     /// <returns></returns>
     public float Scale_X(float x)
     {
-        return x / Screen.width;
+        return x * Screen.width;
     }
 
     /// <summary>
@@ -32,6 +32,6 @@ public class Universal : MonoBehaviour
     /// <returns></returns>
     public float Scale_Y(float y)
     {
-        return y / Screen.height;
+        return y * Screen.height;
     }
 }
